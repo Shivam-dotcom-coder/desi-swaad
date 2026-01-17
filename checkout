@@ -1,0 +1,11 @@
+pnpm add @polar-sh/nextjs
+
+  POLAR_ACCESS_TOKEN=polar_oat_byCTu2q4GdTsvQ4e7kRcYP3qEDnDJdcmPhVxr2VGxPw
+POLAR_SUCCESS_URL=https://www.phonepe.com/
+
+import { Checkout } from "@polar-sh/nextjs";
+
+export const GET = Checkout({
+  accessToken: process.env.polar_oat_byCTu2q4GdTsvQ4e7kRcYP3qEDnDJdcmPhVxr2VGxPw,
+  successUrl: process.env.https://www.phonepe.com/
+});
